@@ -1,0 +1,261 @@
+:root {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5vw;
+}
+
+
+/* heading section */
+
+
+.banner .card {
+    background: #008080;
+    border: 1px solid #2c2c2c;
+    border-radius: 10px;
+    box-shadow: 0px 3px 20px 2px #2c2c2c ;
+    display: flex;
+    flex-direction: column;
+}
+ 
+.banner .card .heading {
+    color:#2c2c2c ;
+    font-family: "Playball", cursive;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 1vh;
+    padding: 3vw;
+}
+
+.banner .card .sub-heading {
+    color:#2c2c2c  ;
+    font-family: "Playball", cursive;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0 3vw 2vw;
+}
+
+
+/* About me section */
+
+.row-1 {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 4vh;
+}
+ 
+ .row-1 .my-image {
+    border: 1px solid #35eea4;
+    border-radius: 50%;
+    box-shadow: 0px 3px 20px 2px #2c2c2c;
+    width: 25vw;
+ }
+ 
+ @media only screen and (max-width: 725px) {
+    .row-1 {
+        flex-direction: column;
+    }
+    .row-1 .image {
+        order: -1;
+    }
+    .row-1 .my-image {
+        width: 60vw;
+    }
+}
+
+
+
+.paragraph {
+    color: #2c2c2c;
+    font-family: "Istok Web", sans-serif;
+    padding: 5vw 5vw 5vw 0;
+    margin-left: 6vw;  
+    }  
+
+
+.paragraph .heading-1 {
+    font-family: "Playball", cursive;
+    font-size: 3rem;
+} 
+
+
+/* technologies section */
+
+.container .row-2 {
+
+    background:#008080 ;
+    border: 1px solid #2c2c2c;
+    border-radius: 10px;
+    box-shadow: 0px 3px 20px 2px #2c2c2c ;
+    background-image: linear-gradient(#AFEEEE,#008080)
+    
+}
+
+
+.row-2 .heading-2 {
+      font-family: "Playball", cursive;
+      font-size: 3rem;
+      text-align: center;
+     
+}
+
+
+
+.row-2 .column {
+
+     display: flex;
+     flex-direction: row;
+
+}
+
+
+ .row-2 .column .col{
+
+    color:#2c2c2c  ;
+    font-family: "Playball", cursive;
+    font-size: 2rem;
+    margin: 5vw;   
+    padding: 0 3vw 2vw;
+  
+}
+
+
+@media only screen and (max-width: 725px) {
+    .row-2 .column {
+        flex-direction: column;
+        }
+
+    .row-2 .column .col {
+        margin-top: 1.5vw;
+    }
+
+    
+}
+
+ 
+ /* project section  */
+
+.row-3 .heading-3 {
+
+     font-family: "Playball", cursive;
+    
+      font-size: 3rem;
+      text-align: center;
+      margin-top: 5vw;  
+
+}
+
+.row-3 .column-3{
+     
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+}
+
+
+
+.row-3 .column-3 .project {
+   
+   font-size: 1.5rem;
+   margin: 7vw;  
+   text-align: center;
+   
+
+}
+
+.row-3 .column-3 .image-project {
+    border: 1px solid #35eea4;
+    border-radius: 5px;
+    box-shadow: 0px 3px 20px 2px #2c2c2c;
+    width: 25vw;
+    margin-bottom: 3vw ; 
+
+}
+
+
+@media only screen and (max-width: 725px) {
+     .row-3 .column-3 {
+        flex-direction: column;
+         
+
+    }
+    .row-3 .image-2 {
+        order: 1;
+    }
+    .row-3 .column-3 .image-project {
+        width: 60vw;
+    }
+}
+
+
+/* contact details section */
+
+.contact {
+    
+    background:#2F4F4F ;
+    border: 1px solid #2c2c2c;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    
+
+ }
+
+ .contact .heading-4 {
+     
+      font-family: "Playball", cursive;
+    
+      font-size: 3rem;
+      text-align: center;
+      margin-top: 3vw; 
+ }
+
+ .contact .mail {
+    color: black;
+    font-family: "Istok Web", sans-serif;
+    margin :2.5vh;
+ }
+
+
+ .icon-group {
+    margin: 2vh;
+
+}
+
+
+.icon-group .icon {
+    margin-right: 10px;
+   
+}
+
+
+
+
+   
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
